@@ -1,0 +1,63 @@
+.modalBackground{
+    background-color: rgb(223, 223, 223);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 360px;
+    height: 350px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+}
+.container .title{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 15px;
+}
+.titleClose{
+    display: flex;
+    justify-content: flex-end;
+}
+.titleClose button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container .body{
+    text-align: center;
+}
+.container .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.container .footer button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.container .footer .continueBtn{
+    background-color: cornflowerblue;
+}
+.container .footer .continueBtn:hover{
+    background-color: rgb(96, 143, 229);
+}
+.container .footer .cancelBtn{
+    background-color: crimson;
+}
+.container .footer .cancelBtn:hover{
+    background-color: rgb(211, 20, 58);
+}
